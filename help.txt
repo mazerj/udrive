@@ -1,0 +1,39 @@
+Keypad
+---------------------
+
+Escape	abort current movement NOW!
+
+up	small step up (out of brain) -- 1 jog
+down	small step down (into brain) -- 1 jog
+
+pageUp	big step up (out of brain) -- 10 jogs
+pageDn	big step down (out of brain) -- 10 jogs
+
+space/n	next motor
+p	previous motor
+g	select/goto motor <arg>
+
+aA	toggle 'move all' flag
+lL	lock current drive
+qQ	quit
+
+
+s	set current motor step size to <arg> steps
+S	set all motor step sizes to <arg> steps
+u	set current motor step size to <arg> um
+U	set all motor step sizes to <arg> um
+
+0123456789 + BackSpace: enter/edit numeric argument
+
+Joypad
+---------------------
+
+   Y
+  X B
+   Z
+
+  Y = up
+  A = down
+  X = prev motor
+  B = next motor
+  R-trig = abort

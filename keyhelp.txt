@@ -1,0 +1,70 @@
+Keyboard Bindings
+=================
+
+Main Keyboard
+-------------
+
+  Escape  abort current movement NOW!
+  up      small step up (out of brain) -- 1 jog
+  down	  small step down (into brain) -- 1 jog
+  space   next motor
+  nN/pP   next/previous motor
+  gG      select/goto motor <arg>
+  aA      toggle 'move all' flag
+  lL      lock current drive
+  qQ      quit
+  +/-     increment/decrement jog size current motor
+  sS      set current motor step size to <arg> steps
+          (w/ no arg, set all motors to match current)
+  uU      set current motor step size to <arg> um
+          (w/ no arg, set all motors to match current)
+  <nums>  enter/edit numeric argument
+
+Numeric Keyboard (numlock OFF!)
+--------------------------------
+
+  +--------+--------+--------+--------+
+  |numlock |/       |*       |<--     |
+  |        |        |        |        |
+  |        | STOP   | STOP   |        |
+  +--------+--------+--------+--------+
+  |7 home  |8 up    |9 pgup  |-       |
+  | NEXT   | JOG UP |        | step-- |
+  |  MOTOR |        |        |        |
+  +--------+--------+--------+--------+
+  |4 left  |5       |6 right |+       |
+  |        |        |        | step-- |
+  |        |        |        |        |
+  +--------+--------+--------+--------+
+  |1 end   |2 down  |3 pgdn  |Enter   |
+  | PREV   | JOG    |        |        |
+  |  MOTOR |  DOWN  |        |        |
+  +--------+--------+--------+        |
+  |0 ins   |000     |./del   |        |
+  | TOGGL  |        |        |        |
+  | LOCK   |        |        |        |
+  +--------+--------+--------+--------+
+
+JoyPad
+------
+
+     Y
+    X B   <- key configuration
+     Z
+
+    Y = up
+    A = down
+    X = prev motor
+    B = next motor
+    R-trig = abort
+
+WiiMote
+-------
+
+  Down - move down (towards brain)
+  Up - move up (towards dura)
+  right - next drive
+  left - previous drive
+  +/- - inc/decrement step size one jog
+  A - abort (like Escape)
+  1 - toggle display-active/display-all

@@ -1,0 +1,2 @@
+- limiters are not directional -- negative should still let you move down
+  and vice versa
